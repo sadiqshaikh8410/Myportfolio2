@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .body{
+            background-color: rgb(66, 27, 180);
+        }
+        #services {
+  max-width: 90%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.services-intro {
+  color: #bbb;
+  margin-bottom: 50px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  background: rgb(8, 8, 56);
+  padding: 25px;
+  width: 280px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(138,43,226,0.8);
+}
+
+.service-card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+
+.service-card p {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <section id="services">
+  <h1 class="section-title">💼 My Services</h1>
+  <p class="services-intro">Here’s what I can do to help you build amazing digital products.</p>
+
+  <div class="services-container">
+    <!-- Service 1 -->
+    <div class="service-card">
+      
+        <h3>Web Development</h3>
+      <p>I create responsive, fast, and modern websites using HTML, CSS, JavaScript, and Django.</p>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-card">
+   
+        <h3>Frontend Development</h3>
+      <p>Clean, user-friendly UI with smooth animations and best practices for an amazing experience.</p>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-card">
+ 
+      <h3>Backend Development</h3>
+      <p>Secure and scalable backend solutions using Python, Django, and MySQL integration.</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
